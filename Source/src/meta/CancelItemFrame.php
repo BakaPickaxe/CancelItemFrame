@@ -11,7 +11,7 @@ class CancelItemFrame extends PluginBase implements Listener {
 		$this->getServer()->getPluginManager()->registerEvents( $this, $this);
 	}
 	public function onBreakItem(ItemFrameDropItemEvent $ev) {
-		if (!$ev->getPlayer->isOp()) {
+		if (!$ev->getPlayer()->isOp()) {
 			$ev->setCancelled();
 		}
 	}
