@@ -1,5 +1,11 @@
 <?php
-
+/*
+* _________
+* |  ____  |
+* |  |__|  |
+* |  ____  |
+* |_|    |_|
+*/
 namespace meta;
 
 use pocketmine\event\block\ItemFrameDropItemEvent;
